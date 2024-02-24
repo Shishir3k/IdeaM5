@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.aling-center {
+  align-items: center;
+}
+
+.warp {
+  flex-wrap: wrap;
+}
+
+.invert {
+  filter: invert(1);
+}
+

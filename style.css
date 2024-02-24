@@ -1,0 +1,565 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+header {
+  height: 12vh;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+  width: 100%;
+  background-color: white;
+}
+
+.left {
+  margin-right: 8.3vw;
+}
+
+.left .brand-title strong {
+  margin-right: 1vw;
+}
+
+.brand-img img {
+  margin: 6px 14px 0;
+  height: 1rem;
+}
+
+.left,
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #5e5e5e;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 9px 22px 9px 22px;
+  transition: all 0.3s ease-out;
+}
+
+.menu ul li a:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+hr {
+  border: 0.5px solid rgb(236, 235, 235);
+  position: fixed;
+  width: 100%;
+  top: 12vh;
+}
+
+.right .nav-btn {
+  padding: 12px 22px;
+  border-radius: 1rem;
+  background-color: #0099ff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  transition: all 0.3s ease-out;
+}
+
+.right .nav-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.right .nav-btn:hover {
+  background-color: #0065a8;
+}
+
+main .sec-first {
+  margin: 5%;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  height: 80vh;
+}
+
+main .sec-first .left-sec-first {
+  text-align: left;
+  width: 35vw;
+  height: 50vh;
+}
+
+main .sec-first .left-sec-first h1 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+}
+
+main .sec-first .left-sec-first p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+main .sec-first .left-sec-first .btn-sec-first {
+  padding: 20px 40px;
+  border-radius: 1rem;
+  background-color: #0099ff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-out;
+}
+
+main .sec-first .left-sec-first .btn-sec-first a {
+  color: white;
+  text-decoration: none;
+}
+
+main .sec-first .left-sec-first .btn-sec-first:hover {
+  background-color: #0065a8;
+}
+
+main .sec-first .right-sec-first {
+  width: 40vw;
+}
+
+main .sec-first .right-sec-first img {
+  border-radius: 21px;
+  object-fit: cover;
+  width: 43vw;
+  height: 80vh;
+}
+
+main .sec-second {
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+main .sec-second .left-sec-second {
+  width: 50%;
+  margin: 0 30px;
+}
+
+main .sec-second .left-sec-second p {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+main .sec-second .right-sec-second #email {
+  border: none;
+  border-radius: 15px;
+  padding: 11px 21px;
+  font-weight: normal;
+  margin-right: 0.7rem;
+  font-size: 1.21rem;
+}
+
+main .sec-second .right-sec-second .btn-sec-second {
+  padding: 12px 27px;
+  border-radius: 1rem;
+  background-color: #0099ff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-out;
+}
+
+main .sec-second .right-sec-second .btn-sec-second a {
+  color: white;
+  text-decoration: none;
+}
+
+main .sec-second .right-sec-second .btn-sec-second:hover {
+  background-color: #0065a8;
+}
+
+main .sec-third {
+  background-color: #264ff5;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+}
+
+main .sec-third .title-sec-third {
+  width: 75vw;
+  text-align: center;
+}
+
+main .sec-third .title-sec-third h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+main .sec-third .title-sec-third p {
+  font-size: 1.75rem;
+  color: #999999;
+  margin-top: 20px;
+  padding-bottom: 2rem;
+}
+
+main .sec-third .cardContainer-sec-third {
+  width: 95%;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  gap: 25px;
+}
+
+main .sec-third .cardContainer-sec-third .card {
+  height: 73vh;
+  width: 38vw;
+  text-align: center;
+  padding: 50px;
+  border-radius: 11px;
+}
+
+main .sec-third .cardContainer-sec-third .card > p {
+  font-size: 1.25rem;
+  margin-top: 12px;
+  color: white;
+}
+
+main .sec-third .cardContainer-sec-third .card h1 {
+  color: white;
+}
+
+main .sec-third .cardContainer-sec-third .card .cost-duration {
+  margin-top: 12px;
+}
+
+main .sec-third .cardContainer-sec-third .card .about-card-sec-third {
+  text-align: left;
+  margin-top: 18px;
+}
+
+main .sec-third .cardContainer-sec-third .card .about-card-sec-third p strong {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+main .sec-third .cardContainer-sec-third .card h1 {
+  font-size: 2.5rem;
+}
+
+main .sec-third .cardContainer-sec-third .card .btn-card-sec-third {
+  margin-top: 85px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+main .sec-third .cardContainer-sec-third .card .btn-card-sec-third button {
+  border: none;
+}
+
+main .sec-third .cardContainer-sec-third .card .btn-card-sec-third button a {
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+main .sec-third .cardContainer-sec-third .card1 {
+  background-color: #7d7d7d;
+  color: white;
+}
+
+main .sec-third .cardContainer-sec-third .card1 .card1-h1 {
+  color: #e5e5e5;
+}
+
+main .sec-third .cardContainer-sec-third .card .btn-card-sec-third .btn-card1 {
+  background-color: #7d7d7d;
+  text-align: left;
+}
+
+main .sec-third .cardContainer-sec-third .card2 {
+  background-color: #0079ae;
+  color: white;
+}
+
+main .sec-third .cardContainer-sec-third .card1 .card2-h1 {
+  color: #68b0cf;
+}
+
+main .sec-third .cardContainer-sec-third .card .btn-card-sec-third .btn-card2 {
+  background-color: #0079ae;
+  text-align: left;
+}
+
+main .sec-third .cardContainer-sec-third .card3 {
+  background-color: #3201eb;
+  color: white;
+}
+
+main .sec-third .cardContainer-sec-third .card3 .card3-h1 {
+  color: #967df5;
+}
+
+main .sec-third .cardContainer-sec-third .card .btn-card-sec-third .btn-card3 {
+  background-color: #3201eb;
+  text-align: left;
+}
+
+main .sec-third .cardContainer-sec-third .card4 {
+  background-color: #8160ff;
+  color: white;
+}
+
+main .sec-third .cardContainer-sec-third .card4 .card4-h1 {
+  color: #b4a1ff;
+}
+
+main .sec-third .cardContainer-sec-third .card .btn-card-sec-third .btn-card4 {
+  background-color: #8160ff;
+  text-align: left;
+}
+
+main .sec-fourth {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  flex-direction: column;
+  background-color: #999999;
+}
+
+main .sec-fourth .left-sec-fourth {
+  width: 50%;
+  text-align: center;
+}
+
+main .sec-fourth .left-sec-fourth h1 {
+  font-size: 2.5rem;
+  margin-bottom: 28px;
+}
+
+main .sec-fourth .left-sec-fourth p {
+  margin-bottom: 14px;
+  font-weight: 300;
+}
+
+main .sec-fourth .right-sec-fourth #email1 {
+  border: none;
+  border-radius: 15px;
+  padding: 15px 27px;
+  font-weight: normal;
+  margin-right: 0.7rem;
+  font-size: 1.21rem;
+}
+
+main .sec-fourth .right-sec-fourth .btn-fourth-second {
+  padding: 15px 27px;
+  border-radius: 1rem;
+  background-color: #0099ff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-out;
+}
+
+main .sec-fourth .right-sec-fourth .btn-fourth-second a {
+  color: white;
+  text-decoration: none;
+}
+main .sec-fourth .right-sec-fourth .btn-fourth-second:hover {
+  background-color: #0065a8;
+}
+
+main .sec-fifth{
+  background-color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+main .sec-fifth .feature1{
+  padding-bottom: 40px;
+}
+
+main .sec-fifth .feature1 .left-sec-fifth{
+  width: 35vw;
+  margin-left: 5rem;
+}
+
+main .sec-fifth .feature1 .left-sec-fifth h1{
+  color: #1a1a1a;
+  font-size: 2.5rem;
+}
+
+main .sec-fifth .feature1 .left-sec-fifth .para{
+  font-size: 1.25rem;
+  margin-top: 20px;
+  opacity: 0.5;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+main .sec-fifth .feature1 .left-sec-fifth .para2{
+  margin-top: 4rem;
+}
+
+main .sec-fifth .feature1 .right-sec-fifth{
+  width: 45vw;
+}
+
+main .sec-fifth .feature1 .right-sec-fifth img{
+  border-radius: 21px;
+  object-fit: cover;
+  width: 42vw;
+  height: 86vh;
+}
+
+main .sec-fifth .feature2{
+  padding-bottom: 40px;
+}
+
+main .sec-fifth .feature2 .left-sec-fifth{
+  width: 45vw;
+}
+
+main .sec-fifth .feature2 .left-sec-fifth img{
+  border-radius: 21px;
+  object-fit: cover;
+  width: 42vw;
+  height: 86vh;
+}
+
+
+main .sec-fifth .feature2 .right-sec-fifth{
+  width: 35vw;
+  margin-right: 5rem;
+}
+
+main .sec-fifth .feature2 .right-sec-fifth h1{
+  color: #1a1a1a;
+  font-size: 2.5rem;
+}
+
+main .sec-fifth .feature2 .right-sec-fifth .para{
+  font-size: 1.25rem;
+  margin-top: 20px;
+  opacity: 0.5;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+main .sec-fifth .feature2 .right-sec-fifth .para2{
+  margin-top: 4rem;
+}
+
+main .sec-fifth .feature3{
+  padding-bottom: 40px;
+}
+
+main .sec-fifth .feature3 .left-sec-fifth{
+  width: 35vw;
+  margin-left: 5rem;
+}
+
+main .sec-fifth .feature3 .left-sec-fifth h1{
+  color: #1a1a1a;
+  font-size: 2.5rem;
+}
+
+main .sec-fifth .feature3 .left-sec-fifth .para{
+  font-size: 1.25rem;
+  margin-top: 20px;
+  opacity: 0.5;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+main .sec-fifth .feature3 .left-sec-fifth .para2{
+  margin-top: 4rem;
+}
+
+main .sec-fifth .feature3 .right-sec-fifth{
+  width: 45vw;
+}
+
+main .sec-fifth .feature3 .right-sec-fifth img{
+  border-radius: 21px;
+  object-fit: cover;
+  width: 42vw;
+  height: 86vh;
+}
+
+main .sec-sixth {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  flex-direction: column;
+  background-color: #999999;
+}
+
+main .sec-sixth .left-sec-sixth {
+  width: 50%;
+  text-align: center;
+}
+
+main .sec-sixth .left-sec-sixth h1 {
+  font-size: 2.5rem;
+  margin-bottom: 28px;
+}
+
+main .sec-sixth .left-sec-sixth p {
+  margin-bottom: 14px;
+  font-weight: 300;
+}
+
+main .sec-sixth .right-sec-sixth #email2 {
+  border: none;
+  border-radius: 15px;
+  padding: 15px 27px;
+  font-weight: normal;
+  margin-right: 0.7rem;
+  font-size: 1.21rem;
+}
+
+main .sec-sixth .right-sec-sixth .btn-sixth-second {
+  padding: 15px 27px;
+  border-radius: 1rem;
+  background-color: #0099ff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-out;
+}
+
+main .sec-sixth .right-sec-sixth .btn-sixth-second a {
+  color: white;
+  text-decoration: none;
+}
+main .sec-sixth .right-sec-sixth .btn-sixth-second:hover {
+  background-color: #0065a8;
+}
+
+main .sec-seventh{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  flex-direction: column;
+  width: 100%;
+  gap: 4rem;
+}
+
+main .sec-seventh .left-sec-seventh *{
+  margin: 0 2rem;
+}
+
+main .sec-seventh .right-sec-seventh h1{
+ font-size: 2.5rem;
+ color: #4c4c4c;
+}
